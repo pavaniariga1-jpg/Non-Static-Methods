@@ -1,0 +1,16 @@
+package methods;
+
+public class NonStaticMethod1 {
+	public void firstMethod() {
+		System.out.println("This is the first non-static method");
+		secondMethod();
+	}
+	public void secondMethod() {
+		System.out.println("This is the second non-static Method");
+	}
+    public static void main(String[] args) {
+    	NonStaticMethod1 obj1=new NonStaticMethod1();
+    	obj1.firstMethod();
+   	}
+
+}
